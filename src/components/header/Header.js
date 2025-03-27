@@ -39,18 +39,19 @@ class Header extends Component {
             />
           </NavLink>
 
+          {/* Mobile Menu Button */}
           <input className="menu-btn" type="checkbox" id="menu-btn" />
           <label className="menu-icon" htmlFor="menu-btn">
             <span className="navicon"></span>
           </label>
 
+          {/* Navigation Menu */}
           <ul className="menu">
             {[
               { name: "Home", path: "/home" },
               { name: "Education", path: "/education" },
               { name: "Experience", path: "/experience" },
               { name: "Projects", path: "/projects" },
-              //{ name: "Open Source", path: "/opensource" },
               { name: "Contact Me", path: "/contact" },
             ].map((item, index) => (
               <li key={index}>
