@@ -2,7 +2,7 @@
   "private": true,
   "name": "MasterPortfolio",
   "version": "0.1.0",
-  "homepage": "https://sohanmahadev10.github.io/sohanmahadev10",
+  "homepage": "https://sohanmahadev10.github.io",
   "scripts": {
     "build": "react-scripts --openssl-legacy-provider build",
     "predeploy": "npm run build",
