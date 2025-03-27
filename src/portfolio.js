@@ -1,5 +1,3 @@
-
-
 // Website related settings
 const settings = {
   isSplash: true, // Change this to false if you don't want Splash screen.
@@ -26,13 +24,11 @@ const greeting = {
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
     "https://drive.google.com/file/d/1hfqJJ-UTzLoIomnlaN1LlyhjBVPnE9_n/view?usp=drivesdk",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio", //yet to do
+  portfolio_repository: "https://github.com/SohanMahadev1", //yet to do
   githubProfile: "https://github.com/SohanMahadev1",
 };
 
 const socialMediaLinks = [
-  
-
   {
     name: "Github",
     link: "https://github.com/SohanMahadev1",
@@ -45,20 +41,20 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
-  
+
   {
     name: "Gmail",
     link: "mailto:sohanmahadev10@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
-  {
-    name: "X-Twitter",
-    link: "https://twitter.com/ashutosh_1919",
-    fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
-    backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
-  },
-  
+  // {
+  //   name: "X-Twitter",
+  //   link: "https://twitter.com/ashutosh_1919",
+  //   fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
+  //   backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
+  // },
+
   {
     name: "Instagram",
     link: "https://www.instagram.com/the_jungle_fury?igsh=bzdzZnpsdTZ0dDln",
@@ -135,7 +131,7 @@ const skills = {
             color: "#2C8EBB",
           },
         },
-        
+
         {
           skillName: "Flutter",
           fontAwesomeClassname: "simple-icons:flutter",
@@ -190,7 +186,7 @@ const skills = {
         },
       ],
     },
-    
+
     {
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
@@ -303,9 +299,7 @@ const skills = {
 
 // Education Page
 const competitiveSites = {
-  competitiveSites: [
-    
-  ],
+  competitiveSites: [],
 };
 
 const degrees = {
@@ -333,7 +327,7 @@ const degrees = {
         "⚡ Proficient in Java Development – Experienced in building scalable applications using Java, with expertise in object-oriented programming (OOP), multithreading, and backend development with frameworks like Spring Boot.",
         "⚡ Full-Stack Development Expertise – Hands-on experience in building scalable web and mobile applications using Java, Node.js, React, and database technologies like MySQL and MongoDB.",
         "⚡ Software Engineering & DevOps – Knowledge of agile methodologies, CI/CD pipelines, cloud services (AWS, Azure), and containerization tools like Docker for efficient software development and deployment.",
-        "⚡ Offered Placements in Top IT Firms – Successfully received job offers from leading multinational companies, including Cognizant, TCS, Wipro, and Infosys, during campus recruitment, showcasing strong technical skills and problem-solving abilities."
+        "⚡ Offered Placements in Top IT Firms – Successfully received job offers from leading multinational companies, including Cognizant, TCS, Wipro, and Infosys, during campus recruitment, showcasing strong technical skills and problem-solving abilities.",
       ],
       website_link: "https://www.rrce.org/",
     },
@@ -346,8 +340,7 @@ const certifications = {
       title: "Agile Scrum Master",
       subtitle: "Simpli Learn",
       logo_path: "scrum.png",
-      certificate_link:
-        "https://simpli-web.app.link/e/8JH23ZPb2Rb",
+      certificate_link: "https://simpli-web.app.link/e/8JH23ZPb2Rb",
       alt_name: "SL",
       color_code: "#8C151599",
     },
@@ -355,8 +348,7 @@ const certifications = {
       title: "DevOps Tools",
       subtitle: "Simpli Learn",
       logo_path: "microsoft_logo.png",
-      certificate_link:
-        "https://simpli-web.app.link/e/dOMwmC2b2Rb",
+      certificate_link: "https://simpli-web.app.link/e/dOMwmC2b2Rb",
       alt_name: "SL",
       color_code: "#00000099",
     },
@@ -373,8 +365,7 @@ const certifications = {
       title: "Python for Data Science",
       subtitle: "Great Learning Academy",
       logo_path: "datascience.jpeg",
-      certificate_link:
-        "https://www.mygreatlearning.com/certificate/DMWXGVAG",
+      certificate_link: "https://www.mygreatlearning.com/certificate/DMWXGVAG",
       alt_name: "GL",
       color_code: "#1F70C199",
     },
@@ -382,8 +373,7 @@ const certifications = {
       title: "Python for Machine learning",
       subtitle: "Great Learning",
       logo_path: "p.png",
-      certificate_link:
-        "https://www.mygreatlearning.com/certificate/PNWULWLR",
+      certificate_link: "https://www.mygreatlearning.com/certificate/PNWULWLR",
       alt_name: "ML",
       color_code: "#D83B0199",
     },
@@ -396,7 +386,6 @@ const certifications = {
       alt_name: "GL",
       color_code: "#1F70C199",
     },
-    
   ],
 };
 
@@ -423,7 +412,7 @@ const experience = {
             "● Developed a full-stack inventory management system for the Iron and Steel Industry using Node.js (Express.js), React.js, and React Native, enhancing operational efficiency by 40%. Improved API reliability through extensive Postman testing, reducing bug reports by 35% within the first month and ensuring seamless system stability for over 10,000 users.",
           color: "#FFFFFF", // You can use this color for styling elements specific to this experience
         },
-        
+
         {
           title: "Programmer Analyst",
           company: "Cognizant Tecnology Solutions",
@@ -431,9 +420,9 @@ const experience = {
           logo_path: "cognizant.png",
           duration: "Feb 2021 - Apr 2022",
           location: "Bengaluru, Karnataka, IND",
-          description:"● Championed Agile project delivery through Scrum methodologies, providing mentorship to 2 junior developers, resulting in a 20% improvement in team velocity and a 15% reduction in deployment rollbacks. Facilitated Agile development through Scrum methodologies, decreasing sprint completion times by 25% and increasing the volume of code deployments by 40% on weekly basis.",
-          
-      
+          description:
+            "● Championed Agile project delivery through Scrum methodologies, providing mentorship to 2 junior developers, resulting in a 20% improvement in team velocity and a 15% reduction in deployment rollbacks. Facilitated Agile development through Scrum methodologies, decreasing sprint completion times by 25% and increasing the volume of code deployments by 40% on weekly basis.",
+
           color: "#0879bf",
         },
 
@@ -444,7 +433,8 @@ const experience = {
           logo_path: "Quant.png",
           duration: "Jun 2020 - Dec 2020",
           location: "Bengaluru, Karnataka, IND",
-          description:"● Achieved hands-on experience implementing cutting-edge algorithms like CNNs and KNN within a collaborative setting presented findings that addressed crucial bottlenecks affecting model training efficiency during weekly reviews and Data Analysis. Spearheaded efforts in classifying musical compositions across six categories including country and hip-hop, leveraged SVM Classifier methodologies resulting in an impressive success rate of 82%",
+          description:
+            "● Achieved hands-on experience implementing cutting-edge algorithms like CNNs and KNN within a collaborative setting presented findings that addressed crucial bottlenecks affecting model training efficiency during weekly reviews and Data Analysis. Spearheaded efforts in classifying musical compositions across six categories including country and hip-hop, leveraged SVM Classifier methodologies resulting in an impressive success rate of 82%",
           color: "#0879bf",
         },
 
@@ -455,7 +445,8 @@ const experience = {
           logo_path: "Thaniya.png",
           duration: "Apr 2019 - May 2020",
           location: "Bengaluru, Karnataka, IND",
-          description:"Engineered an interactive website dedicated to local milk producers. facilitated seamless integration with MySQL databases while deploying on AWS Elastic-Beanstalk to ensure 99.9% uptime and augmented user accessibility across platforms. Optimized API integrations within the Bus Booking app which resulted in processing up to 500 requests per minute. ",
+          description:
+            "Engineered an interactive website dedicated to local milk producers. facilitated seamless integration with MySQL databases while deploying on AWS Elastic-Beanstalk to ensure 99.9% uptime and augmented user accessibility across platforms. Optimized API integrations within the Bus Booking app which resulted in processing up to 500 requests per minute. ",
           color: "#0879bf",
         },
         // Other experiences can go here...
@@ -464,7 +455,6 @@ const experience = {
     // More sections like "Internships", "Volunteering", etc. can go here...
   ],
 };
-
 
 // Projects Page
 const projectsHeader = {
