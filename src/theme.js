@@ -195,56 +195,53 @@ export const materialTealTheme = {
   splashBg: "#05505E",
 };
 
-
 export const materialTealDarkTheme = {
-  body: "#121212",           // Dark background (near-black)
-  text: "#E0F2F1",           // Light teal text for readability
-  expTxtColor: "#FFFFFF",    // White text for emphasis
-  highlight: "#26A69A",      // Medium teal highlight
-  dark: "#263238",           // Dark blue-gray for depth
-  secondaryText: "#80CBC4",  // Lighter teal for secondary information
+  body: "#121212", // Dark background (near-black)
+  text: "#E0F2F1", // Light teal text for readability
+  expTxtColor: "#FFFFFF", // White text for emphasis
+  highlight: "#26A69A", // Medium teal highlight
+  dark: "#263238", // Dark blue-gray for depth
+  secondaryText: "#80CBC4", // Lighter teal for secondary information
   imageHighlight: "#00897B", // Darker teal for image highlights
   compImgHighlight: "#1E272C", // Dark complementary color
-  jacketColor: "#2C3E50",    // Dark slate for "jacket" elements
-  headerColor: "#1A2930",    // Dark header background
-  splashBg: "#004D40",       // Deep teal for splash background
+  jacketColor: "#2C3E50", // Dark slate for "jacket" elements
+  headerColor: "#1A2930", // Dark header background
+  splashBg: "#004D40", // Deep teal for splash background
 };
 
 export const blurDarkTheme = {
-  body: "rgba(18, 18, 20, 0.95)",      // Nearly black with slight transparency
-  text: "rgba(240, 240, 245, 0.9)",    // Off-white text with high opacity
+  body: "rgba(18, 18, 20, 0.95)", // Nearly black with slight transparency
+  text: "rgba(240, 240, 245, 0.9)", // Off-white text with high opacity
   expTxtColor: "rgba(255, 255, 255, 1)", // Pure white for emphasis
-  highlight: "rgba(93, 42, 66, 0.7)",  // Semi-transparent version of your theme color
-  dark: "rgba(0, 0, 0, 0.85)",         // Deep black with transparency
+  highlight: "rgba(93, 42, 66, 0.7)", // Semi-transparent version of your theme color
+  dark: "rgba(0, 0, 0, 0.85)", // Deep black with transparency
   secondaryText: "rgba(192, 160, 175, 0.75)", // Muted pink for secondary text
   imageHighlight: "rgba(226, 159, 149, 0.6)", // Your image highlight with transparency
   compImgHighlight: "rgba(30, 30, 35, 0.65)", // Dark complementary with blur effect
   jacketColor: "rgba(251, 99, 118, 0.75)", // Original jacket color with transparency
   headerColor: "rgba(18, 18, 24, 0.8)", // Dark header with transparency for blur effect
-  splashBg: "rgba(93, 42, 66, 0.9)",   // Theme color with high transparency
-  
+  splashBg: "rgba(93, 42, 66, 0.9)", // Theme color with high transparency
+
   // Additional properties for blur effects
-  backdropFilter: "blur(10px)",        // Blur amount for backdrop elements
-  backgroundBlur: "blur(15px)",        // Stronger blur for background elements
+  backdropFilter: "blur(10px)", // Blur amount for backdrop elements
+  backgroundBlur: "blur(15px)", // Stronger blur for background elements
   cardBackground: "rgba(30, 30, 40, 0.65)", // Card background with transparency
   glassBorder: "1px solid rgba(255, 255, 255, 0.1)", // Subtle border for glass effect
-  glassShadow: "0 8px 32px rgba(0, 0, 0, 0.2)" // Soft shadow for depth
+  glassShadow: "0 8px 32px rgba(0, 0, 0, 0.2)", // Soft shadow for depth
 };
 
 export const blueDarkTheme = {
-  body: "#0A1929",           // Deep navy blue background (similar to --background-color in dark theme)
-  text: "#E3F2FD",           // Light blue-white text for readability (similar to --text-color in dark theme)
-  expTxtColor: "#FFFFFF",    // Pure white for emphasized text
-  highlight: "#3F8CFF",      // Vibrant blue highlight (similar to --primary-color)
-  dark: "#051627",           // Darker blue for depth and contrast
-  secondaryText: "#90CAF9",  // Lighter blue for secondary information (similar to --text-light)
+  body: "#0A1929", // Deep navy blue background (similar to --background-color in dark theme)
+  text: "#E3F2FD", // Light blue-white text for readability (similar to --text-color in dark theme)
+  expTxtColor: "#FFFFFF", // Pure white for emphasized text
+  highlight: "#3F8CFF", // Vibrant blue highlight (similar to --primary-color)
+  dark: "#051627", // Darker blue for depth and contrast
+  secondaryText: "#90CAF9", // Lighter blue for secondary information (similar to --text-light)
   imageHighlight: "#1E88E5", // Medium blue for image highlights
   compImgHighlight: "#162B44", // Complementary dark blue (similar to --card-bg)
-  jacketColor: "#2196F3",    // Medium blue accent
-  headerColor: "#0D2137",    // Slightly lighter than body for header
-  splashBg: "#01579B",       // Deep blue for splash background
+  jacketColor: "#2196F3", // Medium blue accent
+  headerColor: "#0D2137", // Slightly lighter than body for header
+  splashBg: "#01579B", // Deep blue for splash background
 };
 
-
-
-export const chosenTheme = blueDarkTheme;
+export const chosenTheme = materialTealDarkTheme;
