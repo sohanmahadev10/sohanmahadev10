@@ -524,7 +524,6 @@ const contactPageData = {
   },
   phoneSection: {
     title: "",
-    subtitle: "+1(224)-436-2782",
   },
 };
 
