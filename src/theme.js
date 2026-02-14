@@ -244,4 +244,55 @@ export const blueDarkTheme = {
   splashBg: "#01579B", // Deep blue for splash background
 };
 
-export const chosenTheme = materialTealDarkTheme;
+export const techFuturisticTheme = {
+  body: "#0F172A", // deep navy/charcoal
+  text: "#E0F2F1", // soft light for readability
+  highlight: "#22D3EE", // neon cyan accent
+  dark: "#0a0f1b",
+  secondaryText: "#64748B",
+  imageHighlight: "#22D3EE",
+  compImgHighlight: "#1c2632",
+  jacketColor: "#0284C7",
+  headerColor: "#02293f77",
+  splashBg: "#0A1A2F",
+};
+
+export const creativeBoldTheme = {
+  body: "#121212",
+  text: "#FFFFFF",
+  highlight: "#FF6F61", // punchy coral
+  dark: "#0d0d0d",
+  secondaryText: "#B0B0B0",
+  imageHighlight: "#FF6F61",
+  compImgHighlight: "#242424",
+  jacketColor: "#E63946",
+  headerColor: "#FF6F6177",
+  splashBg: "#0d0d0d",
+};
+
+export const architectPremiumDarkTheme = {
+  // Base Background
+  body: "#0B1120", // Deep navy (more premium than plain black)
+  dark: "#070D18", // Slightly darker depth layer
+
+  // Typography
+  text: "#E6EDF3", // High contrast soft white (better readability)
+  expTxtColor: "#FFFFFF", // Pure white for headings
+  secondaryText: "#9BA4B5", // Muted slate for paragraph text
+
+  // Accent / Highlight
+  highlight: "#14B8A6", // Refined teal (not neon)
+  imageHighlight: "#0EA5A4", // Slightly deeper teal
+  jacketColor: "#1D4ED8", // Deep blue accent for subtle variation
+
+  // UI Elements
+  compImgHighlight: "#1E293B", // Card background tone
+  headerColor: "#0F172A", // Slightly lighter than body for header
+  splashBg: "#0A192F", // Hero splash background
+
+  // Optional glow support (if you use gradient overlays)
+  gradientStart: "#0B1120",
+  gradientAccent: "rgba(20, 184, 166, 0.15)", // subtle teal glow
+};
+
+export const chosenTheme = blueDarkTheme;

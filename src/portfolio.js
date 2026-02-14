@@ -69,9 +69,10 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Designing and developing enterprise backend systems using Java & Python",
+        "⚡ Building scalable REST APIs with optimized database architecture",
+        "⚡ Implementing workflow orchestration, rule-based evaluation, and secure backend services",
+        "⚡ Ensuring production stability through concurrency control and structured testing",
       ],
       softwareSkills: [
         {
@@ -402,6 +403,18 @@ const experience = {
       work: true,
       experiences: [
         {
+          title: "Lead Java Software Developer",
+          company: "ECM-TEK",
+          company_url: "https://www.ecm-tek.com/",
+          logo_path: "ECM.jpeg",
+          duration: "October 2025 - Present",
+          location: "Chicago, Illinois, USA",
+          description:
+            "● Leading backend architecture and development of an enterprise-grade Applicaion using Java, Spring Boot, SQL Server, and MongoDB. Designed the multi-database architecture integrating relational and NoSQL systems, implemented workflow orchestration and ensured concurrency-safe operations with optimized locking strategies. Currently leading a team of 3 developers, driving code quality, system design decisions, and scalable microservice-ready architecture.",
+          color: "#FFFFFF", // You can use this color for styling elements specific to this experience
+        },
+
+        {
           title: "Software Developer",
           company: "Entrix",
           company_url: "https://entrix.in/",
@@ -507,18 +520,18 @@ const contactPageData = {
   blogSection: {
     title: "Around United States",
     subtitle:
-      "I am currently seeking an opportunity to leverage my skills and experience in software development, AI, and cloud technologies. With a strong background in building scalable web and mobile applications using Java, Node.js, and React, along with expertise in API development, database management, and cloud integration, I am eager to contribute to innovative projects. My experience in agile methodologies, software testing, and AI-driven solutions positions me well for roles that involve cutting-edge technology and problem-solving. I am looking for a dynamic team where I can apply my knowledge, continue learning, and make a meaningful impact.",
+      "I am a Lead Software Engineer specializing in backend architecture, scalable systems, and cloud-integrated applications. With strong expertise in Java (Spring Boot), Python, Node.js, and React, I design and build enterprise-grade web and mobile solutions with a focus on performance, reliability, and clean architecture. My experience includes architecting hybrid database systems (SQL & NoSQL), developing secure RESTful APIs, implementing workflow engines, and building AI-driven features for data processing and automation. I work comfortably within Agile environments, emphasizing code quality, system scalability, and production-grade stability. I am driven by solving complex technical challenges and contributing to innovative, high-impact projects within forward-thinking teams.",
     link: "https://medium.com/@sohanmahadev10",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
     title: "Address",
-    subtitle: "Archer Ave, Chicago, IL, USA 60608",
+    subtitle: "500 E 33rd st, Chicago, IL, USA 60616",
     locality: "Chicago",
     country: "USA",
     region: "Illinois",
-    postalCode: "60608",
-    streetAddress: "Archer Avenue",
+    postalCode: "60616",
+    streetAddress: "King Drive",
     avatar_image_path: "address_image.svg",
     location_map_link: "https://maps.app.goo.gl/SXfmkbgzSS4b5ZU17",
   },
